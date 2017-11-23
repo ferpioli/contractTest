@@ -9,8 +9,10 @@
     "production" : "pm2 start loader.js --name backend"
   },
   "keywords": [
-    "contract",
-    "test"
+    "api",
+    "joi",
+    "test-contract",
+    "poc"
   ],
   "author": "ferpioli",
   "license": "ISC",
@@ -25,6 +27,18 @@
     "pm2": "^2.7.2"
   },
   "devDependencies": {
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.12.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "chai": "^4.1.1",
+    "consumer-contracts": "^3.0.1",
+    "joi": "^13.0.2",
+    "joi-assert": "0.0.3",
+    "lodash": "^4.17.4",
+    "mocha": "^3.5.0",
+    "mocha-junit-reporter": "^1.13.0",
+    "mocha-multi-reporters": "^1.1.5",
+    "mongodb": "^2.2.31",
+    "supertest": "^3.0.0"
   }
 }
